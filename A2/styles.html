@@ -8,5 +8,37 @@
 </head>
 <body>
     <h1>Styles</h1>
+    <p>There are many many different styles of playing the piano. However, I will only be going theough 4</p>
+    <h2>1. Classical</h2>
+    <p>
+        Classical music is the most diverse genre of piano music. It is considered one of the oldest genres and is credited with laying the foundation 
+        for music education. Playing classical music successfully requires several skills and techniques: piano theory, patience, and an understanding 
+        of a diverse set of skills.
+        It is often the first instrument that students learn since it requires them to have an excellent technique and a thorough understanding of music 
+        theory. It is challenging to acquire and expert other piano genres without first understanding classical piano techniques. This is because most 
+        of the music derives from the classical style. Types of piano music you can play on the classical piano are Canon in D, Prelude No.1 in C, Sonata 
+        in C Major, Eine Kleine Nachtmusik, Moonlight Sonata, Für Elise and many others.
+    </p>
+    <h2>2. Rhytm and Blues</h2>
+    <p>
+        This style of piano music is played in combination with blues, jazz, and gospel. The emphasis is on the rhythm, highlighted by its name.
+        They usually have a powerful sense of syncopation, which involves the placement of unstressed beats under stressed beats. Playing Rhythm 
+        and Blues Piano Music makes it possible for you to master the tempo and rhythm. Many modern piano styles are based on Rhythm and Blues.
+        The 12-bar blues is a simple chord pattern used in many blues compositions. The blues rely heavily on the major and minor pentatonic scales, 
+        with an extra note thrown in for good measure. The blues scale is made by adding a flatted fifth to the minor pentatonic.
+        The I, IV, and V chords of a scale are used to lay the groundwork for melodies and solos. Rock piano, for example, arose from the blues and 
+        then took on a life of its thanks to the likes of Jerry Lee Lewis, Michael McDonald, Elton John, Billy Joel, and others.
+    </p>
+    <button id="Play"> play</button>
+    <audio id="Minor" src="sound/Minor.mp3">song1</audio>
 </body>
+<script>
+    var song1=document.querySelector('#Minor');
+    var play=document.querySelector('#Play');
+    play.addEventListener("click",(e)=>{
+        song1.play();
+    });
+    
+   
+</script>
 </html>
