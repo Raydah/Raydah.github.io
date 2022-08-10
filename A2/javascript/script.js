@@ -1,23 +1,23 @@
 
 
 
-const C4 = new Audio("Piano Notes/C4.mp3")
-const Db4 = new Audio("Piano Notes/Db4.mp3")
-const D4 = new Audio("Piano Notes/D4.mp3")
-const Eb4 = new Audio("Piano Notes/Eb4.mp3")
-const E4 = new Audio("Piano Notes/E4.mp3")
-const F4 = new Audio("Piano Notes/F4.mp3")
-const Gb4 = new Audio("Piano Notes/Gb4.mp3")
-const G4 = new Audio("Piano Notes/G4.mp3")
-const Ab4 = new Audio("Piano Notes/Ab4.mp3")
-const A4 = new Audio("Piano Notes/A4.mp3")
-const Bb4 = new Audio("Piano Notes/Bb4.mp3")
-const B4 = new Audio("Piano Notes/B4.mp3")
-const C5 = new Audio("Piano Notes/C5.mp3")
-const Db5 = new Audio("Piano Notes/Db5.mp3")
-const D5 = new Audio("Piano Notes/D5.mp3")
-const Eb5 = new Audio("Piano Notes/Eb5.mp3")
-const E5 = new Audio("Piano Notes/E5.mp3")
+const C4 = new Audio("Piano_Notes/C4.mp3")
+const Db4 = new Audio("Piano_Notes/Db4.mp3")
+const D4 = new Audio("Piano_Notes/D4.mp3")
+const Eb4 = new Audio("Piano_Notes/Eb4.mp3")
+const E4 = new Audio("Piano_Notes/E4.mp3")
+const F4 = new Audio("Piano_Notes/F4.mp3")
+const Gb4 = new Audio("Piano_Notes/Gb4.mp3")
+const G4 = new Audio("Piano_Notes/G4.mp3")
+const Ab4 = new Audio("Piano_Notes/Ab4.mp3")
+const A4 = new Audio("Piano_Notes/A4.mp3")
+const Bb4 = new Audio("Piano_Notes/Bb4.mp3")
+const B4 = new Audio("Piano_Notes/B4.mp3")
+const C5 = new Audio("Piano_Notes/C5.mp3")
+const Db5 = new Audio("Piano_Notes/Db5.mp3")
+const D5 = new Audio("Piano_Notes/D5.mp3")
+const Eb5 = new Audio("Piano_Notes/Eb5.mp3")
+const E5 = new Audio("Piano_Notes/E5.mp3")
 
 const playSound= Audio =>{
     const clone=audio.CloneNode();
@@ -37,6 +37,19 @@ const playC4=()=>{
     setTimeout(()=>C4key.classList.remove("active"),200);
 };
 C4key.addEventListener("click",playC4);
+
+/*<button id="Play"> play</button>
+    <audio id="Minor" src="sound/Minor.mp3">song1</audio>
+</body>
+<script>
+    var song1=document.querySelector('#Minor');
+    var play=document.querySelector('#Play');
+    play.addEventListener("click",(e)=>{
+        song1.play();
+    });
+    
+   
+</script>*/ 
 
 //Db4
 const Db4key=document.querySelector(".Db4");
