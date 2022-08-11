@@ -15,40 +15,35 @@ body{
 .piano
 {
     display: flex;
-    position:relative;
-    margin-left: 4px;
+   
 }
 
-.white-key
+
+.white
 {
-    width:40px;
-    height:120px;
+    width:100px;
+    height:400px;
     background-color: #ffff;
-    border: 4px solid black;
-    border-radius: 0 0 6px 6px;
-    margin-left: -4px;
-    outline: none;
-    cursor: pointer;
+    border: 1px solid black;
 }
 
-.white-key.active
+.white.active
 {
     background-color:#51ce2b;
 }
 
-.black-key
+.black
 {
-    position: absolute;
-    width:24px;
-    height: 80px;
-    background-image: linear-gradient(#000000,#303030);
-    border:3px solid black;
+    width:60px;
+    height: 240px;
+    background-color:black;
+    border:1px solid black;
     border-radius: 0 0 8px 8px;
     outline:none;
     cursor: pointer;
 }
 
-.black-key.active
+.black.active
 {
     background-image: linear-gradient(#ff0101, #101010);
 }
