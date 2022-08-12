@@ -1,6 +1,16 @@
 html{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Kumbh Sans',sans-serif; 
 }
+
+.navbar{
+    background:#131313;
+    height: 80px;
+    display:flex;
+}
+
 body{
     background-color: #143F6B;
     margin:0;
@@ -11,44 +21,6 @@ body{
     color:white;
     margin:0;
     padding:0;
-}
-
-ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-}
-
-li{
-    float:left;
-}
-a {
-    display:block;
-    padding: 8px;
-    background-color: darkcyan;
-}
-li a{
-    display:block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-header a:hover{
-    color:#cccccc;
-}
-
-header .current a{
-    color: cyan;
-}
-
-.dark{
-    background-color:rgba(4,11,92,.6);
-}
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 
 .piano
