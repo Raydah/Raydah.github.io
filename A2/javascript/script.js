@@ -31,3 +31,11 @@ function playNote(key)
         key.classList.remove('active')
     })
 }
+
+const menu=document.querySelectorAll('#mobile-menu')
+const menuLinks =document.querySelector('.navbar__menu')
+
+menu.addEventListener('click',function(){
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+});
